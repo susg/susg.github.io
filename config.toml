@@ -10,8 +10,8 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = ""
-# disqusShortname = "123"
+googleAnalytics = "UA-176114646-1"
+disqusShortname = "susg-github-io"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -186,15 +186,15 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-  # [[menu.main]]
-  #   identifier = "posts"
-  #   name       = "Posts"
-  #   url        = "posts/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
   # [[menu.main]]
   #   identifier = "tags"
   #   name       = "Tags"
   #   url        = "tags/"
-  # [[menu.main]]
-  #   identifier = "categories"
-  #   name       = "Categories "
-  #   url        = "categories/"
+  [[menu.main]]
+    identifier = "categories"
+    name       = "Categories "
+    url        = "categories/"
