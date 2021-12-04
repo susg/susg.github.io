@@ -11,7 +11,7 @@ tags = ["habits", "reading", "learning"]
 > Reading is to the mind what exercise is to the body.
 
 
-![books](/img/read/books.jpg)
+![books](/img/reading/books.jpg)
 
 
 This is a famous quote by Richard Steele and it is 100% accurate. 
@@ -20,7 +20,7 @@ The water will definitely flow out from the pores but if you do it repeatedly, i
 The dirty sieve here is your mind and holding water is reading.
 You might not remember the contents of what you read in the long run but it will definitely clean your mind.
 
-![sieve](/img/read/sieve.jpg)
+![sieve](/img/reading/sieve.jpg)
 
 Reading should be part of one's daily habit. 
 I myself read atleast 20 pages before going to bed. 
@@ -35,7 +35,7 @@ If you want to start, I would recommend you to start with [Atomic Habits](https:
 It will not just be your first read but also teach how to build a habit. 
 So may be you can make reading a habit by reading it!! 
 
-![paper](/img/read/paper.png)
+![paper](/img/reading/paper.png)
 
 Even from  your career perspective you need to keep on improving yourself. 
 As you gain more experience you are required to know more stuff too.
