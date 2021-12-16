@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on S U S H A N T&#39;s</title>
+    <link>/tags/go/</link>
+    <description>Recent content in go on S U S H A N T&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Class in Go</title>
+      <link>/posts/2021/12/abstract-class-in-go/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2021/12/abstract-class-in-go/</guid>
+      <description>What is an Abstract Class? An Abstract Class is the layout of the class. It defines several methods, some concrete and some abstract. The child class extending the abstract class need to implement the abstract methods. It can also override the implementation of a concrete method.
+Why use Abstract Class? An abstract class is be used when we want to provide a common interface for different implementations. But those multiple implementations have some methods in common which can be defined in the base class itself and used by all.</description>
+    </item>
+    
+  </channel>
+</rss>
