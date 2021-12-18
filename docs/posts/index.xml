@@ -15,25 +15,26 @@
             <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
             
             <guid>/posts/2021/12/abstract-class-in-go/</guid>
-            <description>What is an Abstract Class? An Abstract Class is the layout of the class. It defines several methods, some concrete and some abstract. The child class extending the abstract class need to implement the abstract methods. It can also override the implementation of a concrete method.
-Why use Abstract Class? An abstract class is be used when we want to provide a common interface for different implementations. But those multiple implementations have some methods in common which can be defined in the base class itself and used by all.</description>
+            <description>What is an Abstract Class? An Abstract Class is the layout of the class. It defines several methods, some concrete and some abstract. The child class extending the abstract class needs to implement the abstract methods. It can also override the implementation of a concrete method.
+Why use Abstract Class? An abstract class is used when we want to provide a common interface for different implementations. But those multiple implementations have some methods in common which can be defined in the base class itself and used by all.</description>
             <content type="html"><![CDATA[<h2 id="what-is-an-abstract-class">What is an Abstract Class?</h2>
 <p>An <strong>Abstract Class</strong> is the layout of the class.
 It defines several methods, some concrete and some abstract.
-The child class extending the abstract class need to implement the abstract methods.
+The child class extending the abstract class needs to implement the abstract methods.
 It can also override the implementation of a concrete method.</p>
 <h2 id="why-use-abstract-class">Why use Abstract Class?</h2>
-<p>An abstract class is be used when we want to provide a common interface for different implementations.
+<p>An abstract class is used when we want to provide a common interface for different implementations.
 But those multiple implementations have some methods in common which can be defined in the base
 class itself and used by all.</p>
-<p>Consider the following usecase:
+<p>Consider the following use case:
 Let&rsquo;s say we are coding for a barista and need to write code for creating coffee and tea.
 We can have a <code>Beverage</code> abstract class which can implement the common methods: <code>boilWater()</code> and <code>pourInCup()</code>.
 Whereas the concrete classes: <code>Tea</code>  and <code>Coffee</code> can implement their own <code>prepareRecipe()</code> method.
 <img src="/img/go_abstract_class/usecase.drawio.svg" alt="usecase"></p>
 <h2 id="why-is-it-difficult-in-go">Why is it difficult in Go?</h2>
 <p>Though Go provides a custom type known as <code>interface</code>  which can be used to provide a common interface for different implementations.
-But Go&rsquo;s <code>interface</code> doesn’t have fields and also it doesn’t allow the definition of methods inside it. Any type needs to implements all methods of interface to become of that interface type.</p>
+But Go&rsquo;s <code>interface</code> doesn’t have fields and also it doesn’t allow the definition of methods inside it.
+Any type needs to implement all methods of interface to become of that interface type.</p>
 <h2 id="solution">Solution</h2>
 <p>We will make use of the <a href="https://go.dev/ref/spec#Struct_types">embedded field type</a> in a struct.</p>
 <p>Let&rsquo;s first define the <code>beverage</code> interface.</p>
@@ -69,7 +70,7 @@ These structs will contain <code>baseBeverage</code> as an embedded field and al
 <span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">c</span> <span style="color:#a6e22e">coffee</span>) <span style="color:#a6e22e">prepareRecipe</span>() {
 	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Putting coffee&#34;</span>)
 }
-</code></pre></div><p>When struct A contains another struct B as an embedded field, the medthod sets of S include the promoted mehtods with receiver B.
+</code></pre></div><p>When struct A contains another struct B as an embedded field, the method sets of S include the promoted methods with receiver B.
 Hence, when <code>tea</code> embeds <code>baseBeverage</code>, all the methods of <code>baseBeverage</code> can be used by objects of <code>tea</code> as well.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
 	<span style="color:#a6e22e">t</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tea</span>{}
@@ -77,7 +78,7 @@ Hence, when <code>tea</code> embeds <code>baseBeverage</code>, all the methods o
 	<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">prepareRecipe</span>()
 	<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">pourInCup</span>()
 }
-</code></pre></div><p>This allows us to use an object of struct <code>tea</code> as <code>beverage</code> interface type.</p>
+</code></pre></div><p>This allows us to use an object of struct <code>tea</code> as a <code>beverage</code> interface type.</p>
 ]]></content>
         </item>
         
@@ -100,7 +101,7 @@ The dirty sieve here is your mind and holding water is reading.
 You might not remember the contents of what you read in the long run but it will definitely clean your mind.</p>
 <p><img src="/img/reading/sieve.jpg" alt="sieve"></p>
 <p>Reading should be part of one&rsquo;s daily habit.
-I myself read atleast 20 pages before going to bed.
+I myself read at least 20 pages before going to bed.
 It is a gateway to anything and everything.
 Reading develops your creativity and imagination.
 If you google, you will find out many other benefits of reading ranging from improving concentration to slowing the progress of dementia.</p>
@@ -108,7 +109,7 @@ If you google, you will find out many other benefits of reading ranging from imp
 It can be anything - a tech blog, an article, documentation of a framework, research paper but definitely not your facebook news feed 😛.
 If you want to start, I would recommend you to start with <a href="https://www.amazon.in/Atomic-Habits-Proven-Build-Break-ebook/dp/B01N5AX61W">Atomic Habits</a>.
 It will not just be your first read but also teach how to build a habit.
-So may be you can make reading a habit by reading it!!</p>
+So maybe you can make reading a habit by reading it!!</p>
 <p><img src="/img/reading/paper.png" alt="paper"></p>
 <p>Even from  your career perspective you need to keep on improving yourself.
 As you gain more experience you are required to know more stuff too.

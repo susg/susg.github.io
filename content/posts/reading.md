@@ -23,7 +23,7 @@ You might not remember the contents of what you read in the long run but it will
 ![sieve](/img/reading/sieve.jpg)
 
 Reading should be part of one's daily habit. 
-I myself read atleast 20 pages before going to bed. 
+I myself read at least 20 pages before going to bed. 
 It is a gateway to anything and everything.
 Reading develops your creativity and imagination.
 If you google, you will find out many other benefits of reading ranging from improving concentration to slowing the progress of dementia.
@@ -33,7 +33,7 @@ When I say reading, it does not necessarily mean read a book.
 It can be anything - a tech blog, an article, documentation of a framework, research paper but definitely not your facebook news feed 😛. 
 If you want to start, I would recommend you to start with [Atomic Habits](https://www.amazon.in/Atomic-Habits-Proven-Build-Break-ebook/dp/B01N5AX61W).
 It will not just be your first read but also teach how to build a habit. 
-So may be you can make reading a habit by reading it!! 
+So maybe you can make reading a habit by reading it!! 
 
 ![paper](/img/reading/paper.png)
 
