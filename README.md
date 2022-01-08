@@ -1,4 +1,4 @@
-# Personal Website
+# [Personal Website](susg.github.io)
 
 Made using Hugo.
 
