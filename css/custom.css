@@ -1,0 +1,12 @@
+img[alt=mypic] { max-width: 40%;  display: block; margin: auto;}
+
+img[alt=books] { max-width: 60%;  display: block; margin: auto;}
+
+img[alt=picture] { max-width: 50%;  display: block; margin: auto;}
+
+/* img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+} */
